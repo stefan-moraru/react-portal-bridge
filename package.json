@@ -1,7 +1,7 @@
 {
   "name": "react-portal-bridge",
   "description": "Inject components across microfrontends using React portals",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Stefan Moraru",
   "license": "MIT",
   "type": "module",
@@ -12,8 +12,14 @@
   "module": "./dist/react-portal-bridge.js",
   "exports": {
     ".": {
-      "import": "./dist/react-portal-bridge.js",
-      "require": "./dist/react-portal-bridge.umd.cjs"
+      "import": {
+        "default": "./dist/react-portal-bridge.js",
+        "types": "./dist/index.d.ts"
+      },
+      "require": {
+        "default": "./dist/react-portal-bridge.umd.cjs",
+        "types": "./dist/index.d.ts"
+      }
     }
   },
   "types": "./dist/index.d.ts",
