@@ -1,7 +1,8 @@
 {
   "name": "react-portal-bridge",
   "description": "Inject components across microfrontends using React portals",
-  "version": "0.0.4",
+  "repository": "github:stefan-moraru/react-portal-bridge",
+  "version": "0.0.5",
   "author": "Stefan Moraru",
   "license": "MIT",
   "type": "module",
